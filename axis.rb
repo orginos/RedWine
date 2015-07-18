@@ -1,5 +1,3 @@
-require 'formula'
-
 class Axis < Formula
   homepage 'http://andros.physics.wm.edu/~kostas/axis/'
   url 'http://andros.physics.wm.edu/~kostas/axis/axis-1.3.tar.gz'
