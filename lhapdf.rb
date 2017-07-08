@@ -9,7 +9,8 @@ class Lhapdf < Formula
   sha256 "c28138232e3219bf89cf626c0e414c6291c6b0777c3a931af18e51867657ebe9"
 
   # depends_on "cmake" => :build
-
+  depends_on "boost" => :build
+  
   def install
     # ENV.deparallelize  # if your formula fails when building in parallel
 
